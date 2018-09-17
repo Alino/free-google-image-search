@@ -90,6 +90,6 @@ class GoogleImageSearch {
 
 }
 
-modules.export = {
+module.exports = {
     GoogleImageSearch
 }
