@@ -2,7 +2,7 @@
 // Copyright (c) 2017 by Fedir Bobylev. All Rights Reserved.
 //
 
-export default class GoogleImageSearch {
+class GoogleImageSearch {
 
     /**
      * Function for image search
@@ -88,4 +88,8 @@ export default class GoogleImageSearch {
         return imgSrc
     }
 
+}
+
+modules.export = {
+    GoogleImageSearch
 }
